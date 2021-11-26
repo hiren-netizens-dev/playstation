@@ -54,19 +54,19 @@ section{
     font-family: 'SF-Pro-Display-Bold';
     font-style: normal;
     font-display: swap;
-    src: url(fonts/SF-Pro-Display-Bold.woff2) format('woff2');
+    src: url(https://playstation-net.netlify.app/playstation/fonts/SF-Pro-Display-Bold.woff2) format('woff2');
 }
 @font-face {
     font-family: 'SF-Pro-Display-Regular';
     font-style: normal;
     font-display: swap;
-    src: url(fonts/SF-Pro-Display-Regular.woff2) format('woff2');
+    src: url(https://playstation-net.netlify.app/playstation/fonts/SF-Pro-Display-Regular.woff2) format('woff2');
 }
 @font-face {
     font-family: 'SF-Pro-Display-Medium';
     font-style: normal;
     font-display: swap;
-    src: url(fonts/SF-Pro-Display-Medium.woff2) format('woff2');
+    src: url(https://playstation-net.netlify.app/playstation/fonts/SF-Pro-Display-Medium.woff2) format('woff2');
 }
 /* FONTS CSS END'S HERE */
 
@@ -467,7 +467,7 @@ p{
                         -webkit-box-shadow: 0 0 0 30px $white inset !important;               
                     }
                     select{
-                        background-image:url(images/dropdown.png);
+                        background-image:url(https://playstation-net.netlify.app/playstation/images/dropdown.png);
                         background-repeat: no-repeat;
                         background-position: right 20px center;
                         color: #888888;          
@@ -501,7 +501,7 @@ p{
                                 border:1px solid #05060a;                    
                             }
                             &:checked[type=checkbox] {
-                                background-image: url(images/right.svg);
+                                background-image: url(https://playstation-net.netlify.app/playstation/images/right.svg);
                                 background-color: $blue;
                             }
                         }
@@ -902,7 +902,7 @@ p{
                     top: 0;
                     width: 100%;
                     height: 100%;
-                    background: url(images/circle.svg) no-repeat center;
+                    background: url(https://playstation-net.netlify.app/playstation/images/circle.svg) no-repeat center;
                     animation: 3.5s rotate infinite;
                     background-size: cover;
                 }
