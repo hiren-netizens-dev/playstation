@@ -582,34 +582,37 @@ p{
             }      
         }
     }
+    
+}
+
+
 
     
-    .product_block{
+.product_block{
+    @media screen and (max-width:991px) {
+        flex-direction: column-reverse;
+    }
+    .images_wrapper{  
         @media screen and (max-width:991px) {
-            flex-direction: column-reverse;
+            margin-top: 30px;
         }
-        .images_wrapper{  
+        .product_title{
+            display: none;
             @media screen and (max-width:991px) {
-                margin-top: 30px;
-            }
-            .product_title{
-                display: none;
-                @media screen and (max-width:991px) {
-                    display: block;
-                }
-            }
-        }
-        .form_wrapper{
-            .product_title{
                 display: block;
-                @media screen and (max-width:991px) {
-                    display: none; 
-                }
             }
         }
     }
-    
+    .form_wrapper{
+        .product_title{
+            display: block;
+            @media screen and (max-width:991px) {
+                display: none; 
+            }
+        }
+    }
 }
+
 /* PRODUCT BLOCK CSS END'S HERE */
 
 /* PLAYSTATION BLOCK CSS START HERE */
