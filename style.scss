@@ -548,8 +548,30 @@ p{
             }
         }
     }
-
-  
+    .product_block{
+        @media screen and (max-width:991px) {
+            flex-direction: column-reverse;
+        }
+        .images_wrapper{  
+            @media screen and (max-width:991px) {
+                margin-top: 30px;
+            }
+            .product_title{
+                display: none;
+                @media screen and (max-width:991px) {
+                    display: block;
+                }
+            }
+        }
+        .form_wrapper{
+            .product_title{
+                display: block;
+                @media screen and (max-width:991px) {
+                    display: none; 
+                }
+            }
+        }
+    }
     .product_title{
         margin-bottom: 31px;
         @media screen and (max-width:1366px) {
@@ -582,36 +604,9 @@ p{
             }      
         }
     }
-    
 }
 
 
-
-    
-.product_block{
-    @media screen and (max-width:991px) {
-        flex-direction: column-reverse;
-    }
-    .images_wrapper{  
-        @media screen and (max-width:991px) {
-            margin-top: 30px;
-        }
-        .product_title{
-            display: none;
-            @media screen and (max-width:991px) {
-                display: block;
-            }
-        }
-    }
-    .form_wrapper{
-        .product_title{
-            display: block;
-            @media screen and (max-width:991px) {
-                display: none; 
-            }
-        }
-    }
-}
 
 /* PRODUCT BLOCK CSS END'S HERE */
 
