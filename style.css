@@ -296,9 +296,9 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -740,15 +740,6 @@ p {
   background: #161A39;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
-}
-
-@media screen and (max-width: 991px) {
-  .product_wrapper .product_block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
 }
 
 @media screen and (max-width: 991px) {
