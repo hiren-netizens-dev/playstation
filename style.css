@@ -336,7 +336,7 @@ p {
 @media screen and (max-width: 991px) {
   .product_wrapper .product_block .images_wrapper {
     max-width: 420px;
-    margin: 30px auto 0px;
+    margin: 0 auto 30px auto;
     padding: 0;
   }
 }
@@ -740,12 +740,6 @@ p {
   background: #161A39;
   -webkit-transition: background 0.5s ease;
   transition: background 0.5s ease;
-}
-
-@media screen and (max-width: 991px) {
-  .product_wrapper .product_block .images_wrapper {
-    margin-top: 30px;
-  }
 }
 
 .product_wrapper .product_block .images_wrapper .product_title {
