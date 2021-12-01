@@ -482,7 +482,7 @@ p{
                     .form-check{
                         display: flex;
                         align-items: center;
-                        padding: 5px 0 24px;
+                        // padding: 5px 0 24px;
                         @media screen and (max-width:991px) {
                             padding: 0;
                         }
@@ -548,6 +548,8 @@ p{
             }
         }
     }
+
+  
     .product_title{
         margin-bottom: 31px;
         @media screen and (max-width:1366px) {
@@ -580,7 +582,8 @@ p{
             }      
         }
     }
-    &.campaign_two{
+
+    
         .product_block{
             @media screen and (max-width:991px) {
                 flex-direction: column-reverse;
@@ -600,12 +603,12 @@ p{
                 .product_title{
                     display: block;
                     @media screen and (max-width:991px) {
-                        display: none;
+                        display: none; 
                     }
                 }
             }
         }
-    }
+    
 }
 /* PRODUCT BLOCK CSS END'S HERE */
 
@@ -999,7 +1002,7 @@ p{
                 line-height: 105px;
                 color: $white;
                 text-shadow: 0px 34px 54px rgba(0, 0, 0, 0.6);
-                text-shadow: 0px 34px 54px rgb(0 0 0 / 60%);
+                text-shadow: 0px 34px 54px #00000099; 
                 margin-bottom: -46px;
                 filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.6));
                 @media screen and (max-width:1366px){
